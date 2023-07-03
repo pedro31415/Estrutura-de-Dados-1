@@ -51,7 +51,7 @@ int main(){
     }
     printf("Informe a posição do valor que você deseja remover: ");
     scanf("%d", &z);
-    if(z<0 || z>tam-1){
+    if((z<0) ||( z>tam-1)){
         printf("O valor que você botou é invalido");
         return 0;
     } else {
